@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gillroy";
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.buttons label {
+    cursor: pointer;
+}
+
+#bars {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.progress-bar{
+    padding: 10px;
+}
+.progress-bar.time {
+    background-color: #3c5dff;
+}
+.progress-bar.money{
+    background-color: #7cf952;
+}
+.progress-bar.energy {
+    background-color: #ff8686;
+}
