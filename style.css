@@ -7,6 +7,7 @@
 
 
 body {
+    background-color: black;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -22,6 +23,7 @@ body {
 
 .buttons label {
     cursor: pointer;
+    color: whitesmoke;
 }
 
 #bars {
@@ -31,19 +33,39 @@ body {
     gap: 20px;
     color: white;
 }
-.progress-bar{
-    padding: 10px;
-}
-.progress-bar.time {
-    background-color: #3c5dff;
-}
-.progress-bar.money{
-    background-color: #7cf952;
-}
-.progress-bar.energy {
-    background-color: #ff8686;
+
+.progress-bar {
+    padding: 8px;
+    transition: all 500ms;
 }
 
-.boxwidth{
-    width: 100%;
+.progress-bar.time {
+    background-color: #03C8F1;
+    border-radius: 20px;
+    box-shadow: 7px -5px 47px 14px rgba(3, 200, 241, 0.56);
+    -webkit-box-shadow: 7px -5px 47px 14px rgba(3, 200, 241, 0.56);
+    -moz-box-shadow: 7px -5px 47px 14px rgba(3, 200, 241, 0.56);
+}
+
+.progress-bar.money {
+    background-color: #34D219;
+    border-radius: 20px;
+    box-shadow: 7px -5px 47px 14px rgba(43, 210, 25, 0.56);
+    -webkit-box-shadow: 7px -5px 47px 14px rgba(43, 210, 25, 0.56);
+    -moz-box-shadow: 7px -5px 47px 14px rgba(43, 210, 25, 0.56);
+}
+
+.progress-bar.energy {
+    background-color: #ffa703;
+    border-radius: 20px;
+    box-shadow: 7px -5px 47px 14px rgba(255, 167, 3, 0.56);
+    -webkit-box-shadow: 7px -5px 47px 14px rgba(255, 167, 3, 0.56);
+    -moz-box-shadow: 7px -5px 47px 14px rgba(255, 167, 3, 0.56);
+}
+
+.boxwidth {
+    width: 40%;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    margin: 2px;
 }

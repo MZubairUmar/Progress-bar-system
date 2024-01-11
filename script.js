@@ -10,9 +10,13 @@ const Change = (radio) => {
 function updateProgressBars(timeValue, moneyValue, energyValue) {
     bars.innerHTML = `
     <div class="boxwidth">
-    <div class="progress-bar time" style="width:${timeValue}%;background-color:blue">Time: ${timeValue}%</div>
-    <div class="progress-bar money" style="width:${moneyValue}%">Money: ${moneyValue}%</div>
-    <div class="progress-bar energy" style="width:${energyValue}%">Energy: ${energyValue}%</div>
+    <div class="progress-bar time" style="width:${timeValue}%";border-radius:20px></div>
+    </div>
+    <div class="boxwidth">
+    <div class="progress-bar money" style="width:${moneyValue}%"></div>
+    </div>
+    <div class="boxwidth">
+    <div class="progress-bar energy" style="width:${energyValue}%"></div>
     </div>
     `
 }
