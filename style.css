@@ -43,3 +43,7 @@ body {
 .progress-bar.energy {
     background-color: #ff8686;
 }
+
+.boxwidth{
+    width: 100%;
+}
